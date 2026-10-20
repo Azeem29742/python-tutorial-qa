@@ -1,0 +1,6 @@
+data/tutorial.json
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.env

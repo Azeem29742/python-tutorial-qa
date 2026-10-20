@@ -1,0 +1,245 @@
+[
+  {
+    "chunk_words": 120,
+    "title_boost": 0.0,
+    "hit_rate_at_5": 0.8,
+    "hits": 16,
+    "total": 20,
+    "misses": [
+      {
+        "question": "How do I print text to the screen?",
+        "expected": "Text",
+        "top5": [
+          "Output formatting",
+          "Formatted string literals",
+          "Predefined Clean-up Actions",
+          "An Informal Introduction to Python",
+          "Command-line arguments"
+        ]
+      },
+      {
+        "question": "How can a function return multiple values?",
+        "expected": "Defining Functions",
+        "top5": [
+          "Fancier output formatting",
+          "Function Examples",
+          "Generators",
+          "Keyword Arguments",
+          "Quality control"
+        ]
+      },
+      {
+        "question": "How do I raise an exception?",
+        "expected": "Raising Exceptions",
+        "top5": [
+          "Comparing Sequences and Other Types",
+          "Defining Clean-up Actions",
+          "Enriching Exceptions with Notes",
+          "Error Handling",
+          "Exception Chaining"
+        ]
+      },
+      {
+        "question": "How do I import a module?",
+        "expected": "Modules",
+        "top5": [
+          "Argument Passing",
+          "Command-line arguments",
+          "Dates and times",
+          "Executing modules as scripts",
+          "File wildcards"
+        ]
+      }
+    ]
+  },
+  {
+    "chunk_words": 120,
+    "title_boost": 0.6,
+    "hit_rate_at_5": 0.85,
+    "hits": 17,
+    "total": 20,
+    "misses": [
+      {
+        "question": "What does the with statement do when opening a file?",
+        "expected": "Predefined Clean-up Actions",
+        "top5": [
+          "Methods of file objects",
+          "The Interactive Startup File",
+          "pass Statements",
+          "File wildcards",
+          "The del statement"
+        ]
+      },
+      {
+        "question": "How do I import a module?",
+        "expected": "Modules",
+        "top5": [
+          "Importing * From a Package",
+          "The Module Search Path",
+          "Argument Passing",
+          "Command-line arguments",
+          "Dates and times"
+        ]
+      },
+      {
+        "question": "Which module provides filesystem operations such as listing a directory?",
+        "expected": "Operating system interface",
+        "top5": [
+          "The Module Search Path",
+          "Tools for working with lists",
+          "List Comprehensions",
+          "Lists",
+          "Unpacking in Lists and List Comprehensions"
+        ]
+      }
+    ]
+  },
+  {
+    "chunk_words": 250,
+    "title_boost": 0.0,
+    "hit_rate_at_5": 0.75,
+    "hits": 15,
+    "total": 20,
+    "misses": [
+      {
+        "question": "How do I print text to the screen?",
+        "expected": "Text",
+        "top5": [
+          "Output formatting",
+          "First Steps Towards Programming",
+          "Formatted string literals",
+          "Methods of file objects",
+          "Predefined Clean-up Actions"
+        ]
+      },
+      {
+        "question": "How can a function return multiple values?",
+        "expected": "Defining Functions",
+        "top5": [
+          "Function Examples",
+          "Default Argument Values",
+          "Fancier output formatting",
+          "Generators",
+          "Keyword Arguments"
+        ]
+      },
+      {
+        "question": "What does the with statement do when opening a file?",
+        "expected": "Predefined Clean-up Actions",
+        "top5": [
+          "Exception Chaining",
+          "Fancier output formatting",
+          "Handling Exceptions",
+          "Importing * From a Package",
+          "Iterators"
+        ]
+      },
+      {
+        "question": "How do I raise an exception?",
+        "expected": "Raising Exceptions",
+        "top5": [
+          "Comparing Sequences and Other Types",
+          "Defining Clean-up Actions",
+          "Enriching Exceptions with Notes",
+          "Error Handling",
+          "Exception Chaining"
+        ]
+      },
+      {
+        "question": "How do I import a module?",
+        "expected": "Modules",
+        "top5": [
+          "Argument Passing",
+          "Command-line arguments",
+          "Dates and times",
+          "Decimal floating-point arithmetic",
+          "Executing modules as scripts"
+        ]
+      }
+    ]
+  },
+  {
+    "chunk_words": 250,
+    "title_boost": 0.6,
+    "hit_rate_at_5": 0.85,
+    "hits": 17,
+    "total": 20,
+    "misses": [
+      {
+        "question": "What does the with statement do when opening a file?",
+        "expected": "Predefined Clean-up Actions",
+        "top5": [
+          "Methods of file objects",
+          "The Interactive Startup File",
+          "pass Statements",
+          "File wildcards",
+          "The del statement"
+        ]
+      },
+      {
+        "question": "How do I import a module?",
+        "expected": "Modules",
+        "top5": [
+          "Importing * From a Package",
+          "The Module Search Path",
+          "Argument Passing",
+          "Command-line arguments",
+          "Dates and times"
+        ]
+      },
+      {
+        "question": "Which module provides filesystem operations such as listing a directory?",
+        "expected": "Operating system interface",
+        "top5": [
+          "The Module Search Path",
+          "Tools for working with lists",
+          "Unpacking in Lists and List Comprehensions",
+          "List Comprehensions",
+          "Lists"
+        ]
+      }
+    ]
+  },
+  {
+    "chunk_words": 500,
+    "title_boost": 0.6,
+    "hit_rate_at_5": 0.85,
+    "hits": 17,
+    "total": 20,
+    "misses": [
+      {
+        "question": "What does the with statement do when opening a file?",
+        "expected": "Predefined Clean-up Actions",
+        "top5": [
+          "Methods of file objects",
+          "The Interactive Startup File",
+          "pass Statements",
+          "File wildcards",
+          "The del statement"
+        ]
+      },
+      {
+        "question": "How do I import a module?",
+        "expected": "Modules",
+        "top5": [
+          "Importing * From a Package",
+          "The Module Search Path",
+          "Argument Passing",
+          "Command-line arguments",
+          "Creating Virtual Environments"
+        ]
+      },
+      {
+        "question": "Which module provides filesystem operations such as listing a directory?",
+        "expected": "Operating system interface",
+        "top5": [
+          "The Module Search Path",
+          "Tools for working with lists",
+          "Unpacking in Lists and List Comprehensions",
+          "List Comprehensions",
+          "Lists"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+"""Evaluation set of 20 questions and their exact source subsection labels."""
+CASES = [
+    ("How do I print text to the screen?", "Text"),
+    ("How are strings written across multiple lines?", "Text"),
+    ("How do I define a function with a default argument?", "Default Argument Values"),
+    ("What are keyword arguments in a function call?", "Keyword Arguments"),
+    ("How can a function return multiple values?", "Defining Functions"),
+    ("How do I create a list and append an item?", "More on Lists"),
+    ("What is a list comprehension?", "List Comprehensions"),
+    ("How do I use a dictionary to store key-value pairs?", "Dictionaries"),
+    ("How do I read lines from a file?", "Methods of file objects"),
+    ("How can I format strings with f-strings?", "Formatted string literals"),
+    ("What does the with statement do when opening a file?", "Predefined Clean-up Actions"),
+    ("How do I handle an exception with try and except?", "Handling Exceptions"),
+    ("How do I raise an exception?", "Raising Exceptions"),
+    ("What is a class and how do I define one?", "Class Definition Syntax"),
+    ("How does inheritance work in Python classes?", "Inheritance"),
+    ("How do I import a module?", "Modules"),
+    ("What is the module search path?", "The Module Search Path"),
+    ("How do I install packages with pip?", "Managing Packages with pip"),
+    ("How do I create an isolated virtual environment?", "Creating Virtual Environments"),
+    ("Which module provides filesystem operations such as listing a directory?", "Operating system interface"),
+]
