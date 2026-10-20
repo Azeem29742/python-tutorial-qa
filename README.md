@@ -29,7 +29,7 @@ uv run python scripts/evaluate.py
 uv run uvicorn app.main:app --reload
 ```
 
-Ingestion needs internet access and saves the current docs snapshot to `data/tutorial.json`. Open `http://127.0.0.1:8000/docs` to try `POST /ask`. The default model is `gemini-3.8-flash`; change `GEMINI_MODEL` in `.env` to use another model available to your API key. If `GEMINI_API_KEY` is missing, the endpoint still returns retrieved passages and says generation is not configured.
+Ingestion needs internet access and saves the current docs snapshot to `data/tutorial.json`. Open `http://127.0.0.1:8000/docs` to try `POST /ask`. The default model is `gemini-3.5-flash-lite`; change `GEMINI_MODEL` in `.env` to use another model available to your API key. If `GEMINI_API_KEY` is missing, the endpoint still returns retrieved passages and says generation is not configured.
 
 Google's current Gemini API quickstart uses the `google-genai` SDK and Interactions API. The current pricing page lists a free tier for Gemini 3.8 Flash; quotas and availability are controlled by Google and can change. See the [official quickstart](https://ai.google.dev/gemini-api/docs/get-started) and [official pricing page](https://ai.google.dev/gemini-api/docs/pricing).
 

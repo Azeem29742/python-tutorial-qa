@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 ABSTENTION = "The Python Tutorial does not provide this information."
-MODEL_DEFAULT = "gemini-3.8-flash"
+MODEL_DEFAULT = "gemini-3.5-flash-lite"
 
 
 def generate_answer(question: str, passages: list[dict[str, Any]]) -> str:
