@@ -4,6 +4,8 @@
 [![FastAPI](https://img.shields.io/badge/API-FastAPI-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Package manager: uv](https://img.shields.io/badge/package%20manager-uv-6F42C1)](https://docs.astral.sh/uv/)
 [![Gemini](https://img.shields.io/badge/LLM-Gemini%203.5%20Flash--Lite-4285F4?logo=googlegemini&logoColor=white)](https://ai.google.dev/gemini-api/docs/models)
+[![Requests](https://img.shields.io/badge/HTTP-Requests-2CA5E0?logo=python&logoColor=white)](https://requests.readthedocs.io/)
+[![Beautiful Soup](https://img.shields.io/badge/HTML-Beautiful%20Soup-4B8BBE?logo=python&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 A small retrieval-augmented question-answering API for the official [Python 3 Tutorial](https://docs.python.org/3/tutorial/). Ask a question and receive a concise answer with the tutorial passages and links used to support it. When the retrieved documentation does not answer the question, the service abstains instead of guessing.
 
@@ -138,4 +140,3 @@ The retriever is lexical, so it can miss paraphrases and related concepts. The b
 ## Configuration and security
 
 Copy `.env.example` to `.env`, add your `GEMINI_API_KEY`, and optionally set `GEMINI_MODEL`. The default model is `gemini-3.5-flash-lite`; see Google's [model documentation](https://ai.google.dev/gemini-api/docs/models) for current model availability. Never commit or share `.env` or your API key. The tutorial corpus is downloaded from [docs.python.org](https://docs.python.org/3/tutorial/) and is not committed.
-
